@@ -1,0 +1,55 @@
+.step-container{
+
+  width: 40%;
+  margin: 100px auto;
+  background-color: #f9f7f7;
+  height: 250px;
+ box-shadow:1px 1px 20px 1px black  ;
+}
+
+.steps-number{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+h5{
+
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color:  #d1caca;
+}
+
+h3{
+  text-align: center;
+   position: relative;
+   top: 35px;
+}
+
+.button-container{
+
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  margin: 0px 10px;
+  background-color: #7950f2;
+  color: white;
+  border: transparent;
+  padding: 5px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.active{
+  background-color: #7950f2;
+  color: white;
+}
+
+.close{
+  text-align: end;
+  margin-right: 400px;
+  cursor: pointer;
+  
+}
